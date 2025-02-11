@@ -1,0 +1,27 @@
+header{
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(209, 202, 208);
+}
+
+#knopka{
+    text-align:center;
+    border-radius: 15%;
+    background-color: rgb(216, 204, 204);
+}
+#meropriatia{
+    text-align:center;
+    border-radius: 15%;
+    background-color: rgb(216, 204, 204);
+}
+#logo{
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+.main-nav{
+    display: inline-flex;
+}
+#logo-text{
+    margin-top: 5vh;
+    margin-left: 2vw;
+}

@@ -6,9 +6,9 @@ header{
 
 #knopka{
     text-align:center;
-    border-radius: 15%;
     background-color: rgb(216, 204, 204);
 }
+
 #meropriatia{
     text-align:center;
     border-radius: 15%;
@@ -24,4 +24,9 @@ header{
 #logo-text{
     margin-top: 5vh;
     margin-left: 2vw;
+}
+
+#arena{
+    float: right;
+    margin: 10px;  
 }

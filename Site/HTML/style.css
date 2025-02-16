@@ -1,32 +1,67 @@
-header{
+#backh{
     height: 12vh;
     width: 100%;
-    background-color: rgb(209, 202, 208);
+    background-color: rgb(255, 72, 72);
+    background-size:contain  ;
+    position: fixed;
+    padding: 0%;
 }
 
 #knopka{
     text-align:center;
-    background-color: rgb(216, 204, 204);
 }
-
+body{
+    font-family: cursive;
+}
 #meropriatia{
     text-align:center;
     border-radius: 15%;
-    background-color: rgb(216, 204, 204);
 }
 #logo{
-    padding-left: 1vw;
-    padding-top: 1vw;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
 }
 .main-nav{
     display: inline-flex;
+    position: fixed;
 }
 #logo-text{
     margin-top: 5vh;
     margin-left: 2vw;
 }
-
+.mainpic{
+    background-image: url(photo/moskow.jpg);
+    background-size: fill;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat ;
+}
 #arena{
     float: right;
     margin: 10px;  
 }
+h2{
+    size: 80vw;
+    text-align: center;
+    text-wrap: balance;
+}
+#aboutus{
+    border-radius: 10px 0 10px 0 ;
+    position: relative;
+    left: 45%;
+    width: 10vw;
+    height: fit-content;
+    background-color: rgb(255, 72, 72) ;
+}
+.hrafterredsquere {
+    width: 100px;
+    margin: 20px auto;
+    border: 1px solid black;
+  }
+  #us{
+    
+    margin-left: 1vw;
+    font-size:3vmin;
+    text-align: center;
+  }
+  

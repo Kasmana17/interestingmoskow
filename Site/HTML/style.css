@@ -2,7 +2,7 @@
     height: 12vh;
     width: 100%;
     background-color: rgb(255, 72, 72);
-    background-size:contain  ;
+    background-size: fill ;
     position: fixed;
     padding: 0%;
 }
@@ -61,7 +61,7 @@ h2{
   #us{
     
     margin-left: 1vw;
-    font-size:2vmin;
+    font-size:1vmin;
     text-align: center;
   }
   

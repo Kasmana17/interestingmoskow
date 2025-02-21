@@ -7,9 +7,10 @@
     height: 12vh;
     width: 100%;
     background-color: rgb(255, 72, 72);
-    background-size: contain;
+    background-size: cover;
     position: fixed;
     padding: 0%;
+    z-index: 1000000;
 }
 
 #knopka {
@@ -40,12 +41,27 @@ body {
     margin-left: 2vw;
 }
 
+.textonphoto{
+    font-size: 3em;
+  text-align: center;
+}
+
 .mainpic {
-    background-image: url(photo/moskow.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12vh;
     background-size: fill;
-    width: 100%;
-    background-position: center;
     background-repeat: no-repeat;
+    
+}
+
+.citata{
+    color: white;
+  font-size: 2.5em;
+  padding-left: 2vw;
+  text-align: left;
 }
 
 #arena {
@@ -60,6 +76,7 @@ h2 {
 }
 
 #aboutus {
+    
     border-radius: 10px 0 10px 0;
     position: relative;
     /* left: 45%; */ 
@@ -76,7 +93,7 @@ h2 {
 }
 
 #us {
-
+    
     margin-left: 1vw;
     font-size: 3vmin;
     text-align: center;

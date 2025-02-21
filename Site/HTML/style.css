@@ -7,7 +7,7 @@
     height: 12vh;
     width: 100%;
     background-color: rgb(255, 72, 72);
-    background-size: fill;
+    background-size: contain;
     position: fixed;
     padding: 0%;
 }
@@ -36,7 +36,7 @@ body {
 }
 
 #logo-text {
-    margin-top: 5vh;
+    margin-top: 3vmin;
     margin-left: 2vw;
 }
 

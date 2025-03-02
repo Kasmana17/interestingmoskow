@@ -52,7 +52,7 @@ body {
     grid-template-columns: 1fr 1fr; 
     justify-content: center;
     padding-top: 12vh;
-    background-repeat: no-repeat;
+    grid-gap: 20px; 
     
 }
 

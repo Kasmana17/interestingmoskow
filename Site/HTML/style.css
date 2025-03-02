@@ -48,20 +48,19 @@ body {
 
 .mainpic {
     background-color: rgba(0, 0, 0, 0.5);
-    display: inline-block;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
     justify-content: center;
     padding-top: 12vh;
-    background-size: fill;
     background-repeat: no-repeat;
     
 }
 
 .citata{
     color: white;
+    padding-top: 20vmin;
   font-size: 2.5em;
   padding-left: 2vw;
-  text-align: left;
 }
 
 #arena {

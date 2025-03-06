@@ -14,7 +14,16 @@
 }
 
 #knopka {
-    text-align: center;
+    background-color: rgb(254, 194, 152);
+    border-radius: 10px 0 10px 0;
+    position: relative;
+    margin: 0 auto;
+    width: 50vmin;
+    height: fit-content;
+    margin: 0 auto;
+    display: block;
+    font-size: 4vmin;
+    margin-top:5vw;
 }
 
 body {

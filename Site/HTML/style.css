@@ -2,7 +2,32 @@
     margin: 0;
     padding: 0;
 }
+.toparena{
+    text-align: right;
+}
+#page{
+    margin-top: 30px;
+}
+#top {
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(255, 72, 72);
+    background-size: cover;
+    position: fixed;
+    padding: 0%;
+    z-index: 1000000; 
+}
 
+  
+#backh {
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(255, 72, 72);
+    background-size: cover;
+    position: fixed;
+    padding: 0%;
+    z-index: 1000000;
+}
 #backh {
     height: 12vh;
     width: 100%;

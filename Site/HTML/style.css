@@ -3,15 +3,6 @@
     padding: 0;
 }
 
-#backh {
-    height: 12vh;
-    width: 100%;
-    background-color: rgb(255, 72, 72);
-    background-size: cover;
-    position: fixed;
-    padding: 0%;
-    z-index: 1000000;
-}
 
 #knopka {
     text-align: center;

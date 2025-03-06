@@ -2,10 +2,56 @@
     margin: 0;
     padding: 0;
 }
+.toparena{
+    text-align: right;
+}
+#page{
+    margin-top: 30px;
+}
+#top {
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(255, 72, 72);
+    background-size: cover;
+    position: fixed;
+    padding: 0%;
+    z-index: 1000000; 
+}
 
+<<<<<<< HEAD
+=======
+  
+#backh {
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(255, 72, 72);
+    background-size: cover;
+    position: fixed;
+    padding: 0%;
+    z-index: 1000000;
+}
+#backh {
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(255, 72, 72);
+    background-size: cover;
+    position: fixed;
+    padding: 0%;
+    z-index: 1000000;
+}
+>>>>>>> e441b0affcd1324dccd355a2d9e79b79ed58b99e
 
 #knopka {
-    text-align: center;
+    background-color: rgb(254, 194, 152);
+    border-radius: 10px 0 10px 0;
+    position: relative;
+    margin: 0 auto;
+    width: 50vmin;
+    height: fit-content;
+    margin: 0 auto;
+    display: block;
+    font-size: 4vmin;
+    margin-top:5vw;
 }
 
 body {

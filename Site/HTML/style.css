@@ -37,7 +37,7 @@
     font-size: 4vmin;
     margin-top:5vmin;
 }
-
+   
 
 #meropriatia {
     text-align: center;
@@ -54,6 +54,25 @@
     position: fixed;
 }
 
+.mainphoto{
+    border: 3vmin solid rgba(199, 199, 199, 0.467);
+    padding-top: 10vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.2fr; 
+    justify-content: center;
+}
+
+.word{
+    writing-mode: vertical-rl;
+    padding-top: 24vmin;
+    padding-left: 24vw;
+  font-size:8em;
+}
+.word2{
+    writing-mode: vertical-rl;
+    font-size:8em;
+}
 #logo-text {
     margin-top: 3vmin;
     margin-left: 2vw;

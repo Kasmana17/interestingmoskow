@@ -148,3 +148,16 @@ h2 {
 .textprometrocsk{
     font-size: 6vmin;
 }
+
+.Contacts{
+    padding-left: 5vmin;
+    padding-right: 5vmin;
+    margin-top: 12vh;
+    font-size: 1.3em;
+    background-color: rgba(199, 199, 199, 0.467); 
+
+}
+.num-email{
+    margin-left: 10vmin; 
+    font-weight: bold;
+}

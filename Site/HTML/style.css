@@ -25,9 +25,8 @@
     z-index: 1000000;
 } 
 .bigpadding{
-    margin-left: 35vw;
-    font-size: 3 em;
-    margin-top:5vh;
+    margin-left: 30vw;
+
 }
 
 
@@ -161,6 +160,11 @@ h2 {
     background-color: rgba(199, 199, 199, 0.467); 
 
 }
+.upcontacts{
+    margin-top:4vh;
+    font-size: 1.5em;
+    padding-left:10vmin;
+}
 .num-email{
     display: flex;
     margin-left: 10vmin; 
@@ -168,4 +172,5 @@ h2 {
 }
 .link{
     padding-left:10vmin;
+    
 }

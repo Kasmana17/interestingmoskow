@@ -49,9 +49,12 @@
     border-radius: 15%;
 }
 
-#logo {
+.logo {
     margin-left: 1vw;
     margin-top: 0.5vw;
+    width:8vw;
+    height:8vh;
+    position: relative;
 }
 
 .main-nav {
@@ -97,7 +100,8 @@
 }
 #logo-text {
     margin-top: 3vmin;
-    margin-left: 2vw;
+    font-size:2vw;
+    position: relative;
 }
 
 .textonphoto{
@@ -182,7 +186,7 @@ h2 {
 }
 .upcontacts{
     margin-top:4vh;
-    font-size: 1.5em;
+    font-size: 2vw;
     padding-left:10vmin;
 }
 .num-email{

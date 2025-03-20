@@ -63,17 +63,37 @@
     border: 3vmin solid rgba(199, 199, 199, 0.467);
     margin-top: 10vh;
     background-color: rgba(255, 255, 255, 0.5);
-    display: grid;
-    grid-template-columns: 1fr 0.5fr; 
-    justify-content: center;
+    display: grid;  
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto  ;
+    grid-auto-flow: column dense;
+  /* Автоматическое размещение в колонку */
 }
+
+.item1 {
+  grid-row: span 3;
+}
+
+.item2 {
+    grid-column: span 3;
+  }
+  .item3 {
+    grid-column: span 3;
+  }
+  .item4 {
+    grid-column: span 3;
+  }
+  .item5{
+    grid-row: span 3;
+  }
+  
+
 
 .word{
     writing-mode: vertical-lr;
     padding-top: 22vmin;
-    margin-left: 24vw;
-  font-size:8em;
-  background-color: coral;
+    font-size:8.5em;
+    background-color: coral;
 }
 #logo-text {
     margin-top: 3vmin;

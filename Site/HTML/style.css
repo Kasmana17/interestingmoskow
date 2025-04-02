@@ -1,21 +1,21 @@
-
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&display=swap');
 
+/* all styles */
 * {
     font-family: "Cormorant Infant", serif;
     font-optical-sizing: auto;
     font-weight: 300px;
     font-style: normal;
+    list-style: none;
     margin: 0;
     padding: 0;
+    font-size: 20px;
 }
-.toparena{
-    padding-top: 12vh;
-}
-#page{
-    margin-top: 30px;
-}
-#backh {
+
+/* =============== HEADER ============== */
+
+.header {
     height: 12vh;
     width: 100%;
     background-color: rgb(255, 72, 72);
@@ -23,8 +23,57 @@
     position: fixed;
     padding: 0%;
     z-index: 1000000;
-} 
-.bigpadding{
+}
+
+.logo {
+    width: 8vw;
+    height: 8vh;
+    position: relative;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-block > .nav-logo {
+    margin: 0;
+}
+
+.nav-logo {
+    font-size: 2vw;
+    position: relative;
+}
+
+.nav-block-nav {
+    display: flex;
+}
+
+.nav-link {
+    font-size: 2vw;
+    color: #000;
+    transition: all .2s;
+}
+
+.nav-block-logo {
+    display: flex;
+    gap: .5em;
+    align-items: center;
+}
+
+.nav-link:hover {
+    transition: all .2s;
+    color: #a29292;
+    font-weight: 500;
+}
+
+/* ============== */
+
+.toparena {
+}
+
+.bigpadding {
     margin-left: 30vw;
 
 }
@@ -40,96 +89,76 @@
     margin: 0 auto;
     display: block;
     font-size: 4vmin;
-    margin-top:5vmin;
 }
-   
+
 
 #meropriatia {
     text-align: center;
     border-radius: 15%;
 }
 
-.logo {
-    margin-left: 1vw;
-    margin-top: 0.5vw;
-    width:8vw;
-    height:8vh;
-    position: relative;
-}
 
-.main-nav {
-    display: inline-flex;
-    position: fixed;
-}
-
-.mainphoto{
+.mainphoto {
     border: 3vmin solid rgba(199, 199, 199, 0.467);
-    margin-top: 10vh;
     background-color: rgba(255, 255, 255, 0.5);
-    display: grid;  
-    grid-template-columns: auto auto auto ;
-    grid-template-rows: auto auto auto  ;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
     grid-auto-flow: column dense;
-  /* Автоматическое размещение в колонку */
+    /* Автоматическое размещение в колонку */
 }
 
 .item1 {
-  grid-row: span 3;
+    grid-row: span 3;
 }
 
 .item2 {
     grid-column: span 3;
-  }
-  .item3 {
+}
+
+.item3 {
     grid-column: span 3;
-  }
-  .item4 {
+}
+
+.item4 {
     grid-column: span 3;
-  }
-  .item5{
+}
+
+.item5 {
     grid-row: span 3;
-  }
-  
+}
 
 
-.word{
+
+.word {
     writing-mode: vertical-lr;
-    padding-top: 22vmin;
-    font-size:8.5em;
+    font-size: 8.5em;
     background-color: coral;
 }
-#logo-text {
-    margin-top: 3vmin;
-    font-size:2vw;
-    position: relative;
-}
 
-.textonphoto{
+.textonphoto {
     font-size: 3em;
-  text-align: center;
+    text-align: center;
 }
 
 .mainpic {
     background-color: rgba(0, 0, 0, 0.5);
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
-    padding-top: 12vh;
-    grid-gap: 20px; 
-    
+    grid-gap: 1em;
 }
 
-.citata{
+.citata {
     color: white;
-    padding-top: 20vmin;
     border: 3vmin solid rgb(221, 221, 221);
-  font-size: 2.5em;
-  padding-left: 2vw;
+    font-size: 2.5em;
+    padding-left: 2vw;
 }
 
-.mainincsk{
+.mainincsk {
     display: grid;
-    grid-template-columns: 0.1fr 1fr; 
+    grid-template-columns: 0.1fr 1fr;
     justify-content: left;
 }
 
@@ -145,11 +174,12 @@ h2 {
 }
 
 #aboutus {
-    
+
     border-radius: 10px 0 10px 0;
     position: relative;
-    /* left: 45%; */ 
-    margin: 0 auto; /* центрирование блока */
+    /* left: 45%; */
+    margin: 0 auto;
+    /* центрирование блока */
     width: 20vmin;
     height: fit-content;
     background-color: rgb(255, 72, 72);
@@ -162,46 +192,40 @@ h2 {
 }
 
 #us {
-    
+
     margin-left: 1vw;
     font-size: 3vmin;
     text-align: center;
 }
 
-.metro{
-    padding-top: 12vh;
+.metro {
 }
-.textprometrocsk{
+
+.textprometrocsk {
     font-size: 6vmin;
 }
 
-.Contacts{
-    padding-top: 5vmin;
+.Contacts {
     padding-left: 5vmin;
     padding-right: 5vmin;
     margin-top: 12vh;
     font-size: 1.3em;
-    background-color: rgba(199, 199, 199, 0.467); 
+    background-color: rgba(199, 199, 199, 0.467);
 
 }
-.upcontacts{
-    margin-top:4vh;
-    font-size: 2vw;
-    padding-left:10vmin;
-}
-.num-email{
+
+
+.num-email {
     display: flex;
-    margin-left: 10vmin; 
+    margin-left: 10vmin;
     font-weight: bold;
 }
-.link{
-    padding-left:10vmin;
-    
+
+.link {
+    padding-left: 10vmin;
+
 }
-.body{
-  
-}
+
 .footer {
     margin-top: auto;
-  }
-  
+}

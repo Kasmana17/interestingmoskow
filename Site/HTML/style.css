@@ -20,7 +20,6 @@
     width: 100%;
     background-color: rgb(255, 72, 72);
     background-size: cover;
-    position: fixed;
     padding: 0%;
     z-index: 1000000;
 }
@@ -70,6 +69,16 @@
 
 /* ============== */
 
+
+
+
+
+
+
+
+.poisk {
+    text-align: center;
+}
 .toparena {
 }
 
@@ -198,8 +207,6 @@ h2 {
     text-align: center;
 }
 
-.metro {
-}
 
 .textprometrocsk {
     font-size: 6vmin;

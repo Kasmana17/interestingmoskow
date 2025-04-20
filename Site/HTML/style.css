@@ -167,16 +167,9 @@
 .mainpic {
     background-color: rgba(0, 0, 0, 0.5);
     display: grid;
-<<<<<<< Updated upstream
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     grid-gap: 1em;
-=======
-    grid-template-columns: 2fr 1fr; 
-    justify-content: center;
-    padding-top: 12vh;
-    
->>>>>>> Stashed changes
 }
 
 .citata {
@@ -255,5 +248,6 @@ h2 {
 }
 
 .footer {
+    flex-direction: column;
     margin-top: auto;
 }

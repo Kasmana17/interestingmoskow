@@ -31,8 +31,8 @@
           <div class="container-fluid">
             <nav class="navbar bg-body-tertiary">
               <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                  <img src="../img/Logo2.svg"  alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                <a class="nav-link active" href="index.html">
+                  <img src="../img/Logo2.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                   INTERESTING MOSCOW
                 </a>
               </div>
@@ -42,6 +42,7 @@
                 <li class="nav-item">
                   <a  class="nav-link active" aria-current="page" href="index.html">Главная</a>
                 </li>
+                
                 <li class="nav-item">
                   <a  href="#sectionfoot" class="nav-link">Контакты</a>
                 </li>
@@ -56,10 +57,7 @@
                     <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
                   </ul>
                 </li>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
-                  <button class="btn btn-outline-success" type="submit">Поиск</button>
-                </form>
+                
               </ul>
             </div>
           </div>
@@ -70,37 +68,23 @@
     </header>
     
     
-  <a href = "attractionsOXOTNIRAD.html">
-      <img src = "../img/карта метро Охотный ряд.jpg" class="rounded float-start"  height="600vmin" width="800vmin">
-  </a><br>
+  <div class="rounded float-start">
+    <img src = "../img/карта метро Охотный ряд.jpg" class="img-thumbnail"   height="600vmin" width="600vmin">
+  </div>
+      
+  
   
 
-  <p>
-    <a class="btn btn-danger" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-      Данные о метро
-    </a>
-    
-  </p>
-  <div class="collapse" id="collapseExample">
-    <div class="card card-body" >
-      <strong>Станция метро «Охотный Ряд»</strong>Станция метро «Охотный Ряд» была открыта 15 мая 1935 года в составе первого пускового участка Московского метрополитена из 13 станций — «Сокольники» — «Парк культуры» с ответвлением «Охотный Ряд» — «Смоленская».  
-
-      Название станции связано с площадью Охотного Ряда, которая в XVIII–XIX веках была местом, где торговали добычей охотников — битой дичью и птицей.  
-      
-      Некоторые события из истории станции:
-      
-      До марта 1938 года от станции действовало вилочное движение в направлении станций «Библиотека имени Ленина» и «Улица Коминтерна» (ныне «Александровский сад»). 
-      30 декабря 1944 года был открыт подземный переход на станцию «Театральная», ранее переход осуществлялся только через общий вестибюль. 
-      29 ноября 1959 года был открыт выход со станции в один из первых подземных переходов в Москве (под Охотным Рядом). 
-      7 ноября 1974 года открылся второй переходный коридор на станцию «Театральная», с этого момента каждый из коридоров работает на переход только в одну сторону. 
-      «Охотный Ряд» — единственная в Москве станция, переименованная четыре раза.  
-      
-      Станция первой из станций Московского метрополитена была снята в кино — в фильме «Цирк» в 1936 году. 
-    </div>
+  <div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action">Выходы 1,2 на Тверскую улицу к Геологическому музею</a>
+    <a href="#" class="list-group-item list-group-item-action">Выходы 3,4 на Тверскую улицу к зданию Государственной Думы</a> 
+    <a href="#" class="list-group-item list-group-item-action">5 Выход на Манежную площадь, ТЦ Охотный ряд</a>
+    <a href="#" class="list-group-item list-group-item-action">6 Выход к Александровскому саду и Историческому музею</a>
+    <a href="#" class="list-group-item list-group-item-action">7 Выход к Красной площади</a>
+    <a href="#" class="list-group-item list-group-item-action">8 Выход на Театральную площадь, к Большому театру</a>
   </div>
 
-
-
+<!--карусель-->
     <div class ="container-fluid">
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -108,6 +92,8 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
          </div>
+         
+         <!--карусель-->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="../img/redsquere.jpg"  height="600vmin" width="400vmin" class="d-block w-100" alt="...">
@@ -142,30 +128,29 @@
       </div>
     </div>
     
-    <footer  class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary" style="background-color: #f9e3e3;">
+    <footer id="sectionfoot" class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary" style="background-color: #f9e3e3;">
       <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
         <div class="row">
           <div class="col-lg-3 mb-3">
-            <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
-              <img src="../img/Logo2.svg"  alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-                  <span class="fs-5">INTERESTING MOSCOW</span>
-            </a>
-            <ul class="list-unstyled small">
-              <li class="mb-2">Разработано и создано со всей любовью студентами КМПО РАНХиГС с помощью наших участников <a href="https://github.com/Kasmana17"> Весниной Валерии,</a> <a href="#">Захаровой Арины,</a> <a href="#"> а также ментора Анастасии </a> .</li>
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>INTERESTING MOSCOW</h5>
+            </div>
+            <ul class="list-unstyled small" >
+              <li class="mb-2">Разработано и создано со всей любовью студентами КМПО РАНХиГС с помощью наших участников <a href="https://github.com/Kasmana17" class="link-danger"> Весниной Валерии,</a> <a href="#" class="link-danger">Захаровой Арины,</a> а также ментора <a href="#" class="link-danger"> Анастасии </a> .</li>
               </ul>
           </div>
           <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-            <h5>Ссылки</h5>
+            <h5> Ссылки</h5>
             <ul class="list-unstyled">
-              <li class="mb-2"><a href="index.html">Главная</a></li>
-              <li class="mb-2"><a href="map.html">Карта метро</a></li>
+              <li class="mb-2"><a href="index.html" class="link-danger">Главная</a></li>
+              <li class="mb-2"><a href="map.html" class="link-danger">Карта метро</a></li>
             </ul>
           </div>
           <div class="col-6 col-lg-2 mb-3">
             <h5>Связь с нами</h5>
             <ul class="list-unstyled">
-              <li class="mb-2"><a href="https://t.me/Little_WitchZ">Чат в телеграм с Ариной</a></li>
-              <li class="mb-2"><a href="https://t.me/Kasmana">Чат в телеграм с Валерией</a></li>
+              <li class="mb-2"><a href="https://t.me/Little_WitchZ" class="link-danger">Чат в телеграм с Ариной</a></li>
+              <li class="mb-2"><a href="https://t.me/Kasmana" class="link-danger">Чат в телеграм с Валерией</a></li>
              </ul>
           </div>
         </div>

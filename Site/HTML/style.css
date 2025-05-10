@@ -85,7 +85,16 @@
     text-align: center;
 }
 
+img {
+    background-size: cover;
+}
 
+
+
+
+.footer.container {
+    display: flex;
+     }
 
 
 

@@ -102,8 +102,7 @@ img {
 .poisk {
     text-align: center;
 }
-.toparena {
-}
+
 
 .bigpadding {
     margin-left: 30vw;
@@ -112,11 +111,18 @@ img {
 
 
 #knopka {
-    background-color: rgb(254, 194, 152);
-    border-radius: 10px 0 10px 0;
     position: relative;
     margin: 0 auto;
     width: 50vmin;
+    height: fit-content;
+    margin: 0 auto;
+    display: block;
+    font-size: 4vmin;
+}
+#knopka2 {
+    position: relative;
+    margin: 0 auto;
+    width: 10em;
     height: fit-content;
     margin: 0 auto;
     display: block;
@@ -129,7 +135,9 @@ img {
     border-radius: 15%;
 }
 
-
+.info{
+    font-size: 1.5em;
+}
 .mainphoto {
     border: 3vmin solid rgba(199, 199, 199, 0.467);
     background-color: rgba(255, 255, 255, 0.5);
@@ -173,19 +181,13 @@ img {
     text-align: center;
 }
 
-.mainpic {
-    background-color: rgba(0, 0, 0, 0.5);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    grid-gap: 1em;
+.main-picture {
+    background-image: "../img/image.png" ;
 }
 
 .citata {
-    color: white;
-    border: 3vmin solid rgb(221, 221, 221);
-    font-size: 2.5em;
-    padding-left: 2vw;
+    color: rgb(0, 0, 0);
+    font-size: 2.8em;
 }
 
 .mainincsk {
@@ -212,7 +214,8 @@ h2 {
     /* left: 45%; */
     margin: 0 auto;
     /* центрирование блока */
-    width: 20vmin;
+    width: 10em;
+    font-size: 0.8em ;
     height: fit-content;
     background-color: rgb(255, 72, 72);
 }
@@ -261,3 +264,4 @@ h2 {
     flex-direction: column;
     margin-top: auto;
 }
+

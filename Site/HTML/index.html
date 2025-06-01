@@ -71,12 +71,23 @@
     </header>
 
     <main class="main"> 
-    <section class="container-fluid">
-        <div class="main-picture"></div>
-        <div class="citata">
-            <p class="text">Москва — это город, где прошлое смешивается с настоящим и создаёт уникальную атмосферу.</p>
+
+
+      <div class="card mb-100" style="max-width: 1980px;">
+        <div class="row g-0">
+          <div class="col-md-7">
+            <img src="../img/image.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-5">
+            <div class="card-body">
+                <p class="card-title, citata"></p>
+                <p class="card-text, citata">Москва — это город, где прошлое смешивается с настоящим и создаёт уникальную атмосферу.</p>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+
+
     <section id="sectionus">
         <hr class="hrafterredsquere">
         <h2>
@@ -93,11 +104,84 @@
         Помочь изучить много нового о Москве и ее достопримечательностях, <br>
         И дать полезную информацию о местных ресторанах и развлечениях.
     </p>
-    <hr style="height: 1vmin">
+    
+
+
+
+    <button class="btn btn-primary" id="knopka2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Подробнее</button>
+
+      <div class="offcanvas offcanvas-xxl offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-body-xxl">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card mb-100" style="max-width: 1980px;">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="../img/Nasti.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body">
+                          <p class="card-title, info">Пилипенко Анастасия</p>
+                          <p class="card-text, info">Ментор, участница Проектного офиса. Мне очень нравится, что мои хобби довольно разные, и я никогда не успеваю заскучать. Я танцор, шахматистка, играю на гитаре, мне очень нравится дизайн, нравится развиваться в направлении веб-разработки и хочу работать в Т-Банке фронтенд разработчиком</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card mb-100" style="max-width: 1980px;">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="../img/Arina.jpg" class="img-fluid rounded-start" alt="..." >
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body">
+                          <p class="card-title, info">Захарова Арина </p>
+                          <p class="card-text, info">Развивающийся IT-специалист. Проходила курсы по созданию игр, обучалась в школе программистов.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card mb-100" style="max-width: 1980px;">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="../img/Lera.jpg" class="img-fluid rounded-start" alt="..." >
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body">
+                          <p class="card-title, info">Веснина Валерия</p>
+                          <p class="card-text, info">Меня зовут Валерия, с декабря 2024 я начала изучать разработку сайтов. Работаю с html и css. Ранее проходила курсы по изучению основ программирования на Python</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr style="height: 1vmin">
+
     <p>
-    <form action="map.html">
-        <button id="knopka" type="В ПУТЬ"> В ПУТЬ </button> 
-    </form>
+      <form action="map.html">
+        <button id="knopka" type="button, В ПУТЬ" class="btn btn-danger">В ПУТЬ</button>
+      </form>
     </p>
     <div class="mainphoto">
         <img class="item1" src="../img/Moscow.jpg" alt="Москва" width="100%" height="900vh">
@@ -106,9 +190,10 @@
         <img class="item4" src="../img/Moscow3.jpg" alt="Москва" width="100%" height="300vh">
         <p class="word item5" height="900vh">- Москва -</p>
     </div>
-    </main>
+  </main>
 
-    
+
+
     <footer id="sectionfoot" class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary" style="background-color: #f9e3e3;">
                 <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
                   <div class="row">

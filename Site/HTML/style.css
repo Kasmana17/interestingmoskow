@@ -273,7 +273,7 @@ h2 {
     align-items: center;
     width: 100vw;
     height: 250vh;
-    background-image: url('/img/map.svg');
+    background-image: url('/Site/img/map.svg');
     background-size: contain;
     background-repeat: no-repeat;
 }

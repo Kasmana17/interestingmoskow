@@ -13,6 +13,9 @@
     font-size: 20px;
 }
 
+img {
+    object-fit: cover;   /*делет все фото на сайте вписываемыми в их контейнер*/
+}
 /* =============== HEADER ============== */
 
 .header {
@@ -265,3 +268,21 @@ h2 {
     margin-top: auto;
 }
 
+.map-container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 250vh;
+    background-image: url('/img/map.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dropdown-metro-menu {
+    height: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 15px;
+}

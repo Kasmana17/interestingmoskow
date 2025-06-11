@@ -273,7 +273,7 @@ h2 {
     align-items: center;
     width: 100vw;
     height: 250vh;
-    background-image: url('https://github.com/Kasmana17/interestingmoskow/blob/main/Site/img/map.svg');
+    background-image: url('https://raw.githubusercontent.com/Kasmana17/interestingmoskow/main/Site/img/map.svg');
     background-size: contain;
     background-repeat: no-repeat;
 }
